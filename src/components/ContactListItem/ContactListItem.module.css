@@ -1,0 +1,14 @@
+.contactListDeleteBtn {
+  margin-top: 16px;
+  margin-bottom: 32px;
+  margin-left: 10px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 2px 8px 2px 8px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.contactListDeleteBtn:active {
+  background-color: blue;
+}

@@ -1,0 +1,18 @@
+.filterLabel {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  gap: 5px;
+  font-size: 18px;
+}
+.filterName {
+  padding: 10px 15px 10px 15px;
+  border: 1px solid;
+  font-size: 16px;
+}
+.filterName:hover,
+.filterName:focus {
+  box-shadow: 1px 1px 6px 1px lightskyblue;
+  border: 1px solid lightskyblue;
+}

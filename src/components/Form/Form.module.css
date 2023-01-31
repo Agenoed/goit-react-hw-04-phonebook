@@ -1,0 +1,33 @@
+.form {
+  padding: 15px 15px 0px 15px;
+  border: 2px solid;
+}
+
+.formName,
+.formNumber {
+  display: flex;
+  flex-direction: column;
+  margin: 8px auto;
+  padding: 8px 240px 8px 16px;
+}
+.formName:hover,
+.formName:focus,
+.formNumber:focus,
+.formNumber:hover {
+  box-shadow: 1px 1px 6px 1px lightskyblue;
+  border: 1px solid lightskyblue;
+}
+
+.formBtn {
+  margin-top: 16px;
+  margin-bottom: 32px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 16px 10px 16px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.formBtn:active {
+  background-color: blue;
+}
